@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/engineFastDeisel.ogg-6b18f3987535ea826028b44f7f844b25.oggstr"
+
+[deps]
+
+source_file="res://SFX/engineFastDeisel.ogg"
+dest_files=[ "res://.import/engineFastDeisel.ogg-6b18f3987535ea826028b44f7f844b25.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/EnginePurr.ogg-5099df15dfc394125d5fe5de352da2c4.oggstr"
+
+[deps]
+
+source_file="res://SFX/EnginePurr.ogg"
+dest_files=[ "res://.import/EnginePurr.ogg-5099df15dfc394125d5fe5de352da2c4.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
