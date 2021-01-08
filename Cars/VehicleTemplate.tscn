@@ -1,0 +1,68 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://CarsModels/Wheels/WheelDefault.mesh" type="ArrayMesh" id=1]
+[ext_resource path="res://Cars/VehicleTemplate.gd" type="Script" id=2]
+
+[node name="VehicleTemplate" type="VehicleBody"]
+mass = 1600.0
+script = ExtResource( 2 )
+
+[node name="WheelFrontRight" type="VehicleWheel" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.474, 0.077144, 0.66 )
+use_as_steering = true
+wheel_radius = 0.3
+wheel_rest_length = 0.01
+suspension_travel = 1.0
+suspension_stiffness = 125.0
+suspension_max_force = 6400.0
+
+[node name="WheelDefault" type="MeshInstance" parent="WheelFrontRight"]
+transform = Transform( -1, 0, -3.25841e-07, 0, 1, 0, 3.25841e-07, 0, -1, 0.147197, 0, 0 )
+mesh = ExtResource( 1 )
+material/0 = null
+material/1 = null
+
+[node name="WheelFrontLeft" type="VehicleWheel" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.474, 0.077, 0.66 )
+use_as_steering = true
+wheel_radius = 0.3
+wheel_rest_length = 0.01
+suspension_travel = 1.0
+suspension_stiffness = 125.0
+suspension_max_force = 6400.0
+
+[node name="WheelDefault" type="MeshInstance" parent="WheelFrontLeft"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.147, 0, 0 )
+mesh = ExtResource( 1 )
+material/0 = null
+material/1 = null
+
+[node name="WheelBackLeft" type="VehicleWheel" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.474, 0.077, -0.665 )
+use_as_traction = true
+wheel_radius = 0.3
+wheel_rest_length = 0.01
+suspension_travel = 1.0
+suspension_stiffness = 125.0
+suspension_max_force = 6400.0
+
+[node name="WheelDefault" type="MeshInstance" parent="WheelBackLeft"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.147, 0, 0 )
+mesh = ExtResource( 1 )
+material/0 = null
+material/1 = null
+
+[node name="WheelBackRight" type="VehicleWheel" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.474, 0.077144, -0.664786 )
+use_as_traction = true
+wheel_radius = 0.3
+wheel_rest_length = 0.01
+suspension_travel = 1.0
+suspension_stiffness = 125.0
+suspension_max_force = 6400.0
+
+[node name="WheelDefault" type="MeshInstance" parent="WheelBackRight"]
+transform = Transform( -1, 0, -3.25841e-07, 0, 1, 0, 3.25841e-07, 0, -1, 0.147197, 0, 0 )
+mesh = ExtResource( 1 )
+material/0 = null
+material/1 = null
