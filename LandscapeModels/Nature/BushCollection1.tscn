@@ -1,0 +1,151 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://LandscapeModels/Nature/Bush1.tscn" type="PackedScene" id=1]
+[ext_resource path="res://LandscapeModels/Nature/Bush2.tscn" type="PackedScene" id=2]
+[ext_resource path="res://LandscapeModels/Nature/Bush3.tscn" type="PackedScene" id=3]
+
+[node name="BushCollection1" type="Spatial"]
+
+[node name="Bush1" parent="." instance=ExtResource( 1 )]
+transform = Transform( 0.86431, 0, 0.50296, 0, 1, 0, -0.50296, 0, 0.86431, -0.576338, 0, 0.612554 )
+
+[node name="Bush2" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.242025, 0, -0.447367 )
+
+[node name="Bush3" parent="." instance=ExtResource( 3 )]
+transform = Transform( 0.969385, 0, 0.245544, 0, 1, 0, -0.245544, 0, 0.969385, -0.462311, 0, -0.174343 )
+
+[node name="Bush4" parent="." instance=ExtResource( 1 )]
+transform = Transform( -0.799747, 0, -0.600337, 0, 1, 0, 0.600337, 0, -0.799747, 0.373285, 0, 0.29864 )
+
+[node name="Bush5" parent="." instance=ExtResource( 2 )]
+transform = Transform( -0.993175, 0, -0.116636, 0, 1, 0, 0.116636, 0, -0.993175, -0.315867, 0, 1.44678 )
+
+[node name="Bush6" parent="." instance=ExtResource( 3 )]
+transform = Transform( -0.93413, 0, -0.356934, 0, 1, 0, 0.356934, 0, -0.93413, 0.351817, 0, 1.09347 )
+
+[node name="Bush7" parent="." instance=ExtResource( 1 )]
+transform = Transform( -0.0596375, 0, 0.99822, 0, 1, 0, -0.99822, 0, -0.0596375, 0.648216, 0, -0.685999 )
+
+[node name="Bush8" parent="." instance=ExtResource( 2 )]
+transform = Transform( 0.450519, 0, 0.892767, 0, 1, 0, -0.892767, 0, 0.450519, 0.0706425, 0, -1.89412 )
+
+[node name="Bush9" parent="." instance=ExtResource( 3 )]
+transform = Transform( 0.217513, 0, 0.976057, 0, 1, 0, -0.976057, 0, 0.217513, -0.00292766, 0, -1.14231 )
+
+[node name="Bush10" parent="." instance=ExtResource( 1 )]
+transform = Transform( 0.175659, 0, -0.984451, 0, 1, 0, 0.984451, 0, 0.175659, 0.795788, 0, -1.67522 )
+
+[node name="Bush11" parent="." instance=ExtResource( 2 )]
+transform = Transform( -0.343315, 0, -0.93922, 0, 1, 0, 0.93922, 0, -0.343315, 1.51033, 0, -0.542705 )
+
+[node name="Bush12" parent="." instance=ExtResource( 3 )]
+transform = Transform( -0.102185, 0, -0.994766, 0, 1, 0, 0.994766, 0, -0.102185, 1.49571, 0, -1.29797 )
+
+[node name="Bush13" parent="." instance=ExtResource( 1 )]
+transform = Transform( -0.952305, 0, -0.305147, 0, 1, 0, 0.305147, 0, -0.952305, 3.30826, 0, -0.420617 )
+
+[node name="Bush14" parent="." instance=ExtResource( 2 )]
+transform = Transform( -0.976564, 0, 0.215229, 0, 1, 0, -0.215229, 0, -0.976564, 2.28095, 0, 0.438327 )
+
+[node name="Bush15" parent="." instance=ExtResource( 3 )]
+transform = Transform( -0.999515, 0, -0.0311493, 0, 1, 0, 0.0311493, 0, -0.999515, 3.02754, 0, 0.323295 )
+
+[node name="Bush16" parent="." instance=ExtResource( 1 )]
+transform = Transform( 0.910214, 0, 0.414138, 0, 1, 0, -0.414138, 0, 0.910214, 2.31333, 0, -0.318448 )
+
+[node name="Bush17" parent="." instance=ExtResource( 2 )]
+transform = Transform( 0.995002, 0, -0.0998577, 0, 1, 0, 0.0998577, 0, 0.995002, 3.23344, 0, -1.29135 )
+
+[node name="Bush18" parent="." instance=ExtResource( 3 )]
+transform = Transform( 0.98906, 0, 0.147516, 0, 1, 0, -0.147516, 0, 0.98906, 2.50536, 0, -1.09002 )
+
+[node name="Bush19" parent="." instance=ExtResource( 1 )]
+transform = Transform( -0.156607, 0, -0.987661, 0, 1, 0, 0.987661, 0, -0.156607, 1.83292, 0, 0.583942 )
+
+[node name="Bush20" parent="." instance=ExtResource( 2 )]
+transform = Transform( -0.63211, 0, -0.774879, 0, 1, 0, 0.774879, 0, -0.63211, 2.13693, 0, 1.88806 )
+
+[node name="Bush21" parent="." instance=ExtResource( 3 )]
+transform = Transform( -0.422491, 0, -0.906367, 0, 1, 0, 0.906367, 0, -0.422491, 2.37059, 0, 1.1697 )
+
+[node name="Bush22" parent="." instance=ExtResource( 1 )]
+transform = Transform( 0.0403406, 0, 0.999186, 0, 1, 0, -0.999186, 0, 0.0403406, 1.47589, 0, 1.51821 )
+
+[node name="Bush23" parent="." instance=ExtResource( 2 )]
+transform = Transform( 0.537417, 0, 0.843317, 0, 1, 0, -0.843317, 0, 0.537417, 1.02185, 0, 0.258454 )
+
+[node name="Bush24" parent="." instance=ExtResource( 3 )]
+transform = Transform( 0.313893, 0, 0.949459, 0, 1, 0, -0.949459, 0, 0.313893, 0.87357, 0, 0.99916 )
+
+[node name="Bush25" parent="." instance=ExtResource( 1 )]
+transform = Transform( -0.531473, 0, 0.847075, 0, 1, 0, -0.847075, 0, -0.531473, -1.85807, 0, 1.12182 )
+
+[node name="Bush26" parent="." instance=ExtResource( 2 )]
+transform = Transform( -0.0333123, 0, 0.999445, 0, 1, 0, -0.999445, 0, -0.0333123, -2.94467, 0, 0.339222 )
+
+[node name="Bush27" parent="." instance=ExtResource( 3 )]
+transform = Transform( -0.2777, 0, 0.960668, 0, 1, 0, -0.960668, 0, -0.2777, -2.64833, 0, 1.03407 )
+
+[node name="Bush28" parent="." instance=ExtResource( 1 )]
+transform = Transform( 0.626645, 0, -0.779305, 0, 1, 0, 0.779305, 0, 0.626645, -2.20345, 0, 0.183183 )
+
+[node name="Bush29" parent="." instance=ExtResource( 2 )]
+transform = Transform( 0.149656, 0, -0.988738, 0, 1, 0, 0.988738, 0, 0.149656, -1.03299, 0, 0.833706 )
+
+[node name="Bush30" parent="." instance=ExtResource( 3 )]
+transform = Transform( 0.387854, 0, -0.921721, 0, 1, 0, 0.921721, 0, 0.387854, -1.40835, 0, 0.178162 )
+
+[node name="Bush31" parent="." instance=ExtResource( 1 )]
+transform = Transform( -0.995679, 0, -0.0928573, 0, 1, 0, 0.0928573, 0, -0.995679, -3.1967, 0, -0.0587943 )
+
+[node name="Bush32" parent="." instance=ExtResource( 2 )]
+transform = Transform( -0.907279, 0, 0.420529, 0, 1, 0, -0.420529, 0, -0.907279, -4.38491, 0, 0.558704 )
+
+[node name="Bush33" parent="." instance=ExtResource( 3 )]
+transform = Transform( -0.982762, 0, 0.184878, 0, 1, 0, -0.184878, 0, -0.982762, -3.63107, 0, 0.607189 )
+
+[node name="Bush34" parent="." instance=ExtResource( 1 )]
+transform = Transform( 0.978053, 0, 0.208356, 0, 1, 0, -0.208356, 0, 0.978053, -4.19028, 0, -0.173331 )
+
+[node name="Bush35" parent="." instance=ExtResource( 2 )]
+transform = Transform( 0.950136, 0, -0.311837, 0, 1, 0, 0.311837, 0, 0.950136, -3.0822, 0, -0.925204 )
+
+[node name="Bush36" parent="." instance=ExtResource( 3 )]
+transform = Transform( 0.997617, 0, -0.0689901, 0, 1, 0, 0.0689901, 0, 0.997617, -3.83656, 0, -0.885432 )
+
+[node name="Bush37" parent="." instance=ExtResource( 1 )]
+transform = Transform( 0.336701, 0, -0.941612, 0, 1, 0, 0.941612, 0, 0.336701, -3.02008, 0, -2.7262 )
+
+[node name="Bush38" parent="." instance=ExtResource( 2 )]
+transform = Transform( -0.182578, 0, -0.983191, 0, 1, 0, 0.983191, 0, -0.182578, -2.12739, 0, -1.72807 )
+
+[node name="Bush39" parent="." instance=ExtResource( 3 )]
+transform = Transform( 0.0644282, 0, -0.997922, 0, 1, 0, 0.997922, 0, 0.0644282, -2.26723, 0, -2.47042 )
+
+[node name="Bush40" parent="." instance=ExtResource( 1 )]
+transform = Transform( -0.444229, 0, 0.895913, 0, 1, 0, -0.895913, 0, -0.444229, -2.88482, 0, -1.73522 )
+
+[node name="Bush41" parent="." instance=ExtResource( 2 )]
+transform = Transform( 0.0666565, 0, 0.997776, 0, 1, 0, -0.997776, 0, 0.0666565, -3.88783, 0, -2.62242 )
+
+[node name="Bush42" parent="." instance=ExtResource( 3 )]
+transform = Transform( -0.180382, 0, 0.983597, 0, 1, 0, -0.983597, 0, -0.180382, -3.66237, 0, -1.90145 )
+
+[node name="Bush43" parent="." instance=ExtResource( 1 )]
+transform = Transform( 0.99233, 0, -0.123618, 0, 1, 0, 0.123618, 0, 0.99233, -1.96693, 0, -1.28514 )
+
+[node name="Bush44" parent="." instance=ExtResource( 2 )]
+transform = Transform( 0.795505, 0, -0.605946, 0, 1, 0, 0.605946, 0, 0.795505, -0.673661, 0, -1.63243 )
+
+[node name="Bush45" parent="." instance=ExtResource( 3 )]
+transform = Transform( 0.919938, 0, -0.392064, 0, 1, 0, 0.392064, 0, 0.919938, -1.3994, 0, -1.84203 )
+
+[node name="Bush46" parent="." instance=ExtResource( 1 )]
+transform = Transform( -0.999975, 0, 0.00703308, 0, 1, 0, -0.00703308, 0, -0.999975, -1.02128, 0, -0.959439 )
+
+[node name="Bush47" parent="." instance=ExtResource( 2 )]
+transform = Transform( -0.860751, 0, 0.509026, 0, 1, 0, -0.509026, 0, -0.860751, -2.26522, 0, -0.463679 )
+
+[node name="Bush48" parent="." instance=ExtResource( 3 )]
+transform = Transform( -0.959388, 0, 0.28209, 0, 1, 0, -0.28209, 0, -0.959388, -1.51998, 0, -0.340159 )
