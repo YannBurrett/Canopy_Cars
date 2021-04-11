@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=2]
+
+[sub_resource type="ProceduralSky" id=1]
+sun_color = Color( 0.898039, 0.764706, 0.235294, 1 )
+sun_longitude = -90.23
+sun_energy = 2.0
+
+[sub_resource type="Environment" id=2]
+background_mode = 2
+background_sky = SubResource( 1 )
+ambient_light_color = Color( 0.501961, 0.501961, 0.501961, 1 )
+ambient_light_sky_contribution = 0.0
+tonemap_mode = 2
+ssao_enabled = true
+adjustment_enabled = true
+adjustment_saturation = 2.0
+
+[node name="WorldEnvironment" type="WorldEnvironment"]
+environment = SubResource( 2 )

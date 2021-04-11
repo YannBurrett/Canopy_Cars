@@ -1,7 +1,12 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://CarsModels/Wheels/WheelDefault.mesh" type="ArrayMesh" id=1]
 [ext_resource path="res://Cars/VehicleTemplate.gd" type="Script" id=2]
+[ext_resource path="res://Cars/WheelSpawners.gd" type="Script" id=3]
+
+[sub_resource type="CylinderShape" id=1]
+radius = 0.297025
+height = 0.30877
 
 [node name="VehicleTemplate" type="VehicleBody"]
 mass = 1600.0
@@ -66,3 +71,62 @@ transform = Transform( -1, 0, -3.25841e-07, 0, 1, 0, 3.25841e-07, 0, -1, 0.14719
 mesh = ExtResource( 1 )
 material/0 = null
 material/1 = null
+
+[node name="WheelSpawners" type="Spatial" parent="."]
+script = ExtResource( 3 )
+
+[node name="DeadWheel1" type="RigidBody" parent="WheelSpawners"]
+transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -0.62681, 0.083474, 0.656864 )
+visible = false
+
+[node name="MeshInstance" type="MeshInstance" parent="WheelSpawners/DeadWheel1"]
+mesh = ExtResource( 1 )
+material/0 = null
+material/1 = null
+
+[node name="CollisionShape" type="CollisionShape" parent="WheelSpawners/DeadWheel1"]
+transform = Transform( -4.37114e-08, 1, -8.74228e-08, -1, -4.37114e-08, -8.74228e-08, -8.74228e-08, 8.74228e-08, 1, 0.145967, -2.98023e-08, 0 )
+shape = SubResource( 1 )
+disabled = true
+
+[node name="DeadWheel2" type="RigidBody" parent="WheelSpawners"]
+transform = Transform( 1, 0, 1.74846e-07, 0, 1, 0, -1.74846e-07, 0, 1, 0.627, 0.083, 0.657 )
+visible = false
+
+[node name="MeshInstance" type="MeshInstance" parent="WheelSpawners/DeadWheel2"]
+mesh = ExtResource( 1 )
+material/0 = null
+material/1 = null
+
+[node name="CollisionShape" type="CollisionShape" parent="WheelSpawners/DeadWheel2"]
+transform = Transform( -4.37114e-08, 1, -8.74228e-08, -1, -4.37114e-08, -8.74228e-08, -8.74228e-08, 8.74228e-08, 1, 0.145967, -2.98023e-08, 0 )
+shape = SubResource( 1 )
+disabled = true
+
+[node name="DeadWheel3" type="RigidBody" parent="WheelSpawners"]
+transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -0.62681, 0.083474, -0.676139 )
+visible = false
+
+[node name="MeshInstance" type="MeshInstance" parent="WheelSpawners/DeadWheel3"]
+mesh = ExtResource( 1 )
+material/0 = null
+material/1 = null
+
+[node name="CollisionShape" type="CollisionShape" parent="WheelSpawners/DeadWheel3"]
+transform = Transform( -4.37114e-08, 1, -8.74228e-08, -1, -4.37114e-08, -8.74228e-08, -8.74228e-08, 8.74228e-08, 1, 0.145967, -2.98023e-08, 0 )
+shape = SubResource( 1 )
+disabled = true
+
+[node name="DeadWheel4" type="RigidBody" parent="WheelSpawners"]
+transform = Transform( 1, 0, 1.74846e-07, 0, 1, 0, -1.74846e-07, 0, 1, 0.627, 0.083, -0.676003 )
+visible = false
+
+[node name="MeshInstance" type="MeshInstance" parent="WheelSpawners/DeadWheel4"]
+mesh = ExtResource( 1 )
+material/0 = null
+material/1 = null
+
+[node name="CollisionShape" type="CollisionShape" parent="WheelSpawners/DeadWheel4"]
+transform = Transform( -4.37114e-08, 1, -8.74228e-08, -1, -4.37114e-08, -8.74228e-08, -8.74228e-08, 8.74228e-08, 1, 0.145967, -2.98023e-08, 0 )
+shape = SubResource( 1 )
+disabled = true

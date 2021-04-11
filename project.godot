@@ -19,6 +19,10 @@ config/name="CanopyCars"
 run/main_scene="res://Track/Track.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+Filegrabber="*res://Gamestate/Filegrabber.gd"
+
 [input]
 
 Player_1_Forward={
@@ -135,6 +139,11 @@ Player_4_Back={
 4Player={
 "deadzone": 0.5,
 "events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":52,"unicode":0,"echo":false,"script":null)
+ ]
+}
+test_death={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777218,"unicode":0,"echo":false,"script":null)
  ]
 }
 
